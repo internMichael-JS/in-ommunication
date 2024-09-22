@@ -1,0 +1,13 @@
+
+.createP{
+  margin:1% 5%;
+}
+.textPost{
+  width: 90%;
+  margin: 0 5%;
+}
+.button{
+  margin: 0px 5%;
+display: flex;
+justify-content: end;
+}

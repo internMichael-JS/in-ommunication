@@ -1,0 +1,42 @@
+.postDiv{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;;
+  background-color: rgb(174, 215, 238);
+  border-radius: 30px;
+}
+.iconPost{
+  max-width: 100%;
+ 
+ 
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.iconPostDiv{
+  max-width: 6%;
+ margin: 10px;
+  
+}
+.postProfile{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+.profileInformation p{
+margin: 0;
+}
+
+.postText{
+  padding: 0 30px;
+}
+
+.buttonLine{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+}
+.buttonLine button{
+  margin: 5px 20px;
+}

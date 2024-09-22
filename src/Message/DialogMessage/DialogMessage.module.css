@@ -1,0 +1,17 @@
+.dialogMessage {
+    padding:4px;
+    margin-top: 8px;
+    display: inline-block;
+    border: 1px solid rgb(123, 123, 238);
+    border-radius: 10px;
+    background-color: rgb(196, 255, 255);
+    max-width: 50%;
+}
+.myMessage{
+    display: flex;
+    justify-content: start;
+}
+.otherMessage{ 
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,49 @@
+.messagesDiv {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    justify-items: center;
+    height: 100%;
+}
+
+.dialogs {
+    width: 100%;
+    border: 1px solid #8ccee0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.dialogs a {
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+.dialogs a.active {
+    color: blue;
+}
+
+.dialogMessages {
+    height: 100%;
+    width: 90%;
+    margin-bottom: 60px;
+}
+
+.textNewMessage {
+  
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+    max-width: 100%;
+    width: 53%;
+    display: flex;
+    justify-content: center;
+}
+.textNewMessage textarea{
+    width: 80%;
+    padding-left: 10px;
+    margin: 0;
+}
+.textNewMessage button{
+    width: 18%;
+    min-height: 100%;
+    
+}

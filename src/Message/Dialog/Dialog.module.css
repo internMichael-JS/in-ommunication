@@ -1,0 +1,25 @@
+.dialog{
+    background-color: #8ccee0;
+    text-align: center;
+    margin: 5px;
+    padding:1vh 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+.dialog.active{
+    background-color: #75c7dd;
+}
+.dialogImg img{
+    width: 7vh;
+    height: 7vh;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.dialogName{
+    background-color: #8ccee0;
+    
+}

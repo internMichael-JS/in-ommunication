@@ -1,0 +1,29 @@
+
+.navButton{
+  padding: 1.5vh
+}
+.navButton a{
+  text-decoration: none;
+  font-size: 3vh;
+}
+.navButton a.active{
+  color: blue;
+}
+.onlineHeader{
+  text-align: center;
+}
+.onlineName{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.friendsOnline{
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-top: 5vh;
+}
+.mainOnline{
+    display:inline;
+    padding-left: 1vw;
+}
